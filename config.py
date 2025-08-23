@@ -23,7 +23,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Vars For API End Pont.
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", "NxGBNexGenBotsee3692") # youtube song api key, get it from https://t.me/MR_ROCKY_TZ
+API_KEY = getenv("API_KEY", "30DxNexGenBots060d02") # youtube song api key, get it from https://t.me/MR_ROCKY_TZ
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None)) 
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/abh628/SaregamaMusic",
+    "https://github.com/abh628/Appy",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -120,4 +120,3 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
-
