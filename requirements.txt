@@ -10,7 +10,7 @@ heroku3
 motor==2.5.0
 numpy
 opencv-python
-pillow
+pillow==9.5.0
 psutil
 py-tgcalls==0.9.7
 pykeyboard
@@ -26,6 +26,6 @@ uvloop
 yt-dlp
 youtube-search
 youtube-search-python
-httpx[http2]==0.27.2
+py-yt-search
+httpx[http2]
 bs4
-
